@@ -1,0 +1,20 @@
+@startuml
+DiagramModel -- TestModel
+
+class DiagramModel {
+    TestModel diagramModel :
+    String data_name :
+    List id_number :
+    Integer count_students :
+    void get_id()
+    get_name( String name )
+    void set_number_student()
+}
+class TestModel {
+    String data_name :
+    List last_name_student :
+    Dict count_students :
+    get_last_name()
+    void get_count_students( String name )
+}
+@enduml
