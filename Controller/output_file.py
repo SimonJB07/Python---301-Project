@@ -1,9 +1,9 @@
 
 class DiagramModel:
     def __inti__(self):
-        self.diagramModel: TestModel
+        self.test_model: TestModel
         self.data_name: str
-        self.id_number: []
+        self.id_number: list
         self.count_students: int
         
     @staticmethod
@@ -22,8 +22,8 @@ class DiagramModel:
 class TestModel:
     def __inti__(self):
         self.data_name: str
-        self.last_name_student: []
-        self.count_students: {}
+        self.last_name_student: list
+        self.count_students: dict
         
     @staticmethod
     def get_last_name():

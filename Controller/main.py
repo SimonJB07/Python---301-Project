@@ -1,17 +1,17 @@
-from Model.file_reader import FileReader
-from Model.set_up_class import SetUp
+from Controller.main_controller import MainController
 
 
 def main():
     """this takes in a file name and pass it to the model"""
-    file_name = 'ClassDiagram.txt'
-    file_output_name = 'output_file.py'
-    SetUp.file_setup_name = file_output_name
-    FileReader.file_reader(file_name)
+    MainController.write_name()
+    MainController.read_data()
+    MainController.get_file_data()
 
 
 if __name__ == '__main__':
     main()
     import doctest
-
     doctest.testmod()
+
+
+

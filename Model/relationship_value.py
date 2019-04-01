@@ -6,7 +6,7 @@ class Relationship(Enum):
     COMPOSITION = ' composition '
     AGGREGATION = ' aggregation '
     INHERITANCE = ' inheritance '
-    ASSOCIATION = ' association '
+    ASSOCIATION = ': '
     DIRECTED_ASSOCIATION = ' directed association '
     DEPENDENCY = ' dependency '
     IMPLEMENTATION = ' implementation '

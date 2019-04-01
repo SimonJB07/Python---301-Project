@@ -2,10 +2,9 @@
 DiagramModel -- TestModel
 
 class DiagramModel {
-    TestModel diagramModel :
     String data_name :
     List id_number :
-    Integer count_students :
+    int count_students :
     void get_id()
     get_name( String name )
     void set_number_student()
